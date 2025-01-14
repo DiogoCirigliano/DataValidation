@@ -16,7 +16,8 @@ namespace DataValidation.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Cpf = new CpfUtilis().CPF_validation("52565558805");//Teste do cpf
+            ViewBag.Cpf = new CpfUtilis().CPF_validation("11598923269");//Teste do cpf
+            ViewBag.CreateCpf = new CpfUtilis().CPF_Create();
             return View();
         }
 

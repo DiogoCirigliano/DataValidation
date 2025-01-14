@@ -49,10 +49,44 @@
             }
             else { return false;}
         }
-        public int CPF_Create()
+        public string CPF_Create()
         {
-            return 20;
+            int sum = 0;
+            int Mult = 10;
+            int rest = 0;
+            int FirstDig = 0;
+            int SecondDig = 0;
+
+            Random random = new Random();
+            string cpf = string.Empty;
+
+            for (int i = 0; i < 9; i++)
+            {
+                cpf += random.Next(10).ToString();
+            }
+
+            for (int i = 0; i < 9; i++)
+            {
+                sum += int.Parse(cpf[i].ToString()) * Mult;
+                Mult--;
+            }
+            rest = sum % 11;
+            FirstDig = rest < 2 ? 0 : 11 - rest;
+
+            Mult = 11;
+            sum = 0;
+            for (int i = 0; i < 9; i++)
+            {
+                sum += int.Parse(cpf[i].ToString()) * Mult;
+                Mult--;
+            }
+            sum += FirstDig * Mult;
+            rest = sum % 11;
+            SecondDig = rest < 2 ? 0 : 11 - rest;
+
+            return cpf + FirstDig.ToString() + SecondDig.ToString();
         }
+
     }
 
 }
