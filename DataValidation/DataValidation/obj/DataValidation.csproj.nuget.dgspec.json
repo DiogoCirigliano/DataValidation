@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Diogo\\DataValidation\\DataValidation\\DataValidation.csproj": {}
+    "C:\\Diogo\\CreateValidateData\\DataValidation\\DataValidation\\DataValidation.csproj": {}
   },
   "projects": {
-    "C:\\Diogo\\DataValidation\\DataValidation\\DataValidation.csproj": {
+    "C:\\Diogo\\CreateValidateData\\DataValidation\\DataValidation\\DataValidation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Diogo\\DataValidation\\DataValidation\\DataValidation.csproj",
+        "projectUniqueName": "C:\\Diogo\\CreateValidateData\\DataValidation\\DataValidation\\DataValidation.csproj",
         "projectName": "DataValidation",
-        "projectPath": "C:\\Diogo\\DataValidation\\DataValidation\\DataValidation.csproj",
+        "projectPath": "C:\\Diogo\\CreateValidateData\\DataValidation\\DataValidation\\DataValidation.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Diogo\\DataValidation\\DataValidation\\obj\\",
+        "outputPath": "C:\\Diogo\\CreateValidateData\\DataValidation\\DataValidation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
